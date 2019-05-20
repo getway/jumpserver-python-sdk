@@ -74,6 +74,8 @@ class Asset(Decoder):
     domain = ""
     org_id = ""
     org_name = ""
+    environment = ""
+    project_list = []
     _system_users_name_list = None
 
     @classmethod
